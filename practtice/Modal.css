@@ -1,0 +1,32 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal_body {
+    text-align: center;
+  }
+  
+  .close_modal {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .close_modal button {
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close_modal button:hover {
+    background-color: #ccc;
+  }
